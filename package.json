@@ -1,0 +1,23 @@
+{
+  "name": "prerender-case",
+  "version": "1.0.0",
+  "description": "An prerender case",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/likej2ee/prerender-case.git"
+  },
+  "keywords": [
+    "prerender",
+    "mongodb"
+  ],
+  "author": "xjq",
+  "license": "ISC",
+  "dependencies": {
+    "prerender": "^4.4.1",
+    "prerender-mongo": "0.0.7"
+  }
+}
