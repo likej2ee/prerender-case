@@ -20,6 +20,7 @@ server.use(prerender.httpHeaders());
 // server.use(prerender.s3HtmlCache());
 
 process.env.MONGOLAB_URI = 'mongodb://localhost:27017/prerender'; // mongodb缓存
+process.env.PAGE_TTL = 86400; // 缓存时间1天，单位秒
 server.use(require('prerender-mongo'));
 
 server.use(require('./lib/removeLazyload')); // 移除图片懒加载
