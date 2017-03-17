@@ -12,6 +12,8 @@ In your local prerender-case project run:
 
     $ npm install
     $ node server.js
+    or
+    $ export NODE_ENV=production; node server.js;
 
 How to update stored cache
 --------------------------
